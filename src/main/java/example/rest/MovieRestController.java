@@ -63,7 +63,7 @@ public class MovieRestController {
 	@DeleteMapping("/movie-api/{id}")
 	public String deleteMovie(@PathVariable Integer id) {
 		MovieRepository.deleteMovie(id);
-		return "Movie Deleted";
+		return "Movie Deleted Successfully";
 	}
 	
 //	
