@@ -20,6 +20,7 @@ public class MovieRepository {
 		Movie m4 = new Movie(104,"Commando", "Action",125);
 		Movie m5 = new Movie(105,"Tremors", "Horror",90);
 		Movie m6 = new Movie(106,"Terminator", "Horror",95);
+		Movie m7 = new Movie(107, "Transformers", "Action",120);
 		
 		allMovies.put(m1.getMovieId(), m1);
 		allMovies.put(m2.getMovieId(), m2);
@@ -27,6 +28,7 @@ public class MovieRepository {
 		allMovies.put(m4.getMovieId(), m4);
 		allMovies.put(m5.getMovieId(), m5);
 		allMovies.put(m6.getMovieId(), m6);
+		allMovies.put(m7.getMovieId(), m7);
 	}
 	
 //	get all movies
